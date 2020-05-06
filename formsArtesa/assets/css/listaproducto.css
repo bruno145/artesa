@@ -1,0 +1,55 @@
+h1{
+    color: darkcyan;
+    margin-top: 4%;
+}
+
+.contenido h1{
+    color: darkcyan;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.txt p{
+    font-size: 23px;
+    width: 100%;
+}
+
+.contenido-l{
+    border: 2px solid gray;
+    padding: 1%;
+    display: flex;
+    margin-bottom: 5%;
+    height: 80px;
+}
+
+.img{
+    width: 20%;
+}
+
+.img img{
+    width: 200px;
+    height: 200px;
+}
+
+.con{
+    width: 30%;
+    float: right;
+    margin-top: 1%;
+}
+
+.precio{
+    display: flex;
+    float: left;
+    margin-left: -10%;
+}
+
+.precio h4{
+    padding: 5%;
+}
+
+
+input{
+    width: 175px;
+    margin-top: 12%;
+    margin-right: 10px;
+}

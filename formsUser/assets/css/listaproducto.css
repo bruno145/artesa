@@ -1,0 +1,51 @@
+.contenido h1{
+    color: darkcyan;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.txt p{
+    font-size: 23px;
+    width: 100%;
+}
+
+.contenido-l{
+    border: 2px solid gray;
+    padding: 1%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.img{
+    width: 20%;
+}
+
+.img img{
+    width: 200px;
+    height: 200px;
+}
+
+.con{
+    width: 30%;
+    float: right;
+}
+
+.precio{
+    display: flex;
+    float: left;
+}
+
+.precio h4{
+    padding: 5%;
+}
+
+.form{
+    width: 30%;
+    float: right;
+}
+
+input{
+    width: 175px;
+    margin-top: 12%;
+    margin-left: 50%;
+}

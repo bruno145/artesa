@@ -1,0 +1,86 @@
+#modal {
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#modal .contenido{
+  margin-left: 42%;
+  margin-top: 10%;
+}
+
+#modal {
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+
+#mostrar-modal {
+    display: none;
+}
+
+#mostrar-modal + label {
+    background: darkcyan;
+    display: table;
+    margin: auto;
+    color: #fff;;
+    line-height: 3;
+    padding: 0 1em;
+    text-decoration: uppercase;
+    cursor: pointer;
+}
+
+#mostrar-modal + label:hover {
+    background: #38678f;
+}
+
+#mostrar-modal:checked ~ #modal {
+    top: 0;
+}
+#cerrar-modal{
+    display: none;
+}
+
+#cerrar-modal + label{
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: red;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+#cerrar-modal:checked ~ #modal {
+    top: -100vh;
+}
+
+#cerrar-modal + label {
+  display: none;
+}
+#mostrar-modal:checked ~ #cerrar-modal + label {
+  display: block;
+    margin: inherit;
+    padding: 0.1%;
+    border-radius: 100%;
+}
+#cerrar-modal:checked + label {
+  display: none;
+}

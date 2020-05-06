@@ -1,0 +1,42 @@
+h1{
+    color: darkcyan;
+}
+
+.muro{
+    background: darkcyan;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.muro p{
+    color: white;
+    font-size: 20px;
+}
+
+.muro .p{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.usuario{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    width: 100%;
+}
+
+.usuario a:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.nombre h4{
+    width: 40%;
+    color: white;
+    float: left;
+    margin-left: 10%;
+} 

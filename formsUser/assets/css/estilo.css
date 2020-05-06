@@ -1,0 +1,178 @@
+#main{
+    display: flex;
+    margin-top: 50px;
+}
+
+#slider img{
+ width: 30%;
+    float: left;
+}
+
+.info{
+    width: 60%;
+    float: right;
+    border: 4px solid cadetblue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.precio{
+    display: flex;
+}
+
+.precio p{
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.precio h3{
+    padding: 5px;
+}
+
+.descripcion h3{
+    margin-bottom: 1px;
+}
+
+.contactar{
+    display: flex;
+}
+
+.contactar p{
+    padding: 5px;
+    margin-right: 25px;
+}
+
+.contactar a{
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid gray;
+    height: 55px;
+    cursor: pointer;
+}
+
+.contactar a:hover{
+    color: white;
+    background: rgba(0,0,0,0.7);
+    
+}
+@media(max-width:1000px){
+    .descripcion h3{
+        font-size: 17px;
+    }
+    .descripcion p{
+        font-size: 18px;
+    }
+    .precio h3{
+        font-size: 19px;
+    }
+    .precio p{
+        font-size: 19px;
+    }
+    .titulo h2{
+        font-size: 17px;
+    }
+    .enlace a{
+        font-size: 18px;
+    }
+    .contactar p{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:736px){
+    
+    #slider img{
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    .info{
+        width: 100%;
+    }   
+}
+@media(max-width:580px){
+     #slider img{
+        width: 50%;
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }   
+    .descripcion h3{
+        font-size: 17px;
+    }
+    .descripcion p{
+        font-size: 18px;
+    }
+    .precio h3{
+        font-size: 19px;
+    }
+    .precio p{
+        font-size: 19px;
+    }
+    .titulo h2{
+        font-size: 17px;
+    }
+    .enlace a{
+        font-size: 18px;
+    }
+    .contactar p{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:419px){
+    #slider img{
+        width: 65%;
+        margin-left: 15%;
+    }
+    
+    .contactar {
+        display: block;
+    }
+    .contactar p{
+        width: 100%;
+    }
+    .enlace {
+        margin-bottom: 5%;
+    }
+}
+ 
+.regresar{
+    margin-top: 45%;
+}
+
+.regresar a{
+    text-decoration: none;
+    padding: 10px;
+    color: gray;
+    border: 2px solid gray;
+    margin-left: 5%;
+}
+
+.regresar a:hover{
+    
+}
+
+.comentario{
+    width: 80%;
+    margin-left: 8%;
+}
+
+.comentario h3{
+    color: darkcyan;
+}
+
+.comen p{
+    font-size: 20px;
+    margin-bottom: -2%;
+}
+.comen h3{
+    color: cadetblue;
+    margin-bottom: -1%;
+}
+
+.comen{
+    margin-bottom: 3%;
+}
+form{
+    margin-bottom: 5%;
+}

@@ -1,0 +1,39 @@
+h3{
+    color: darkcyan;
+}
+
+.empecemos select{
+    margin-bottom: 10%;
+}
+.empecemos h2{
+    margin-bottom: 7%;
+}
+
+.empecemos input{
+    margin-bottom: 7%;
+}
+
+.enviar input{
+    margin-bottom: 1%;
+}
+
+.con h2{
+    color: darkcyan;
+    margin-top: 7%;
+}
+
+.con h3{
+    margin-top: 3%;
+}
+.con p{
+    font-size: 24px;
+}
+
+.comparacion p{
+    margin-top: 5%;
+    font-size: 24px;
+}
+
+select{
+    margin-bottom: 5%;
+}
